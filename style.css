@@ -89,8 +89,17 @@ footer {
     align-items: center;
 }
 
-.top-left span:nth-last-of-type(1):hover {
-    color: red
+.top-left span {
+    cursor: pointer;
+}
+
+.top-left span:nth-of-type(1):hover {
+    color: red;
+}
+
+#fillHeart {
+    display: none;
+    fill: red;
 }
 
 .top-center {
